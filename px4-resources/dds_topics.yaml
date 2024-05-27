@@ -22,6 +22,9 @@ publications:
 
   - topic: /fmu/out/actuator_motors
     type: px4_msgs::msg::ActuatorMotors
+    
+  - topic: /fmu/in/actuator_servos
+    type: px4_msgs::msg::ActuatorServos
 
   - topic: /fmu/out/vehicle_thrust_setpoint
     type: px4_msgs::msg::VehicleThrustSetpoint

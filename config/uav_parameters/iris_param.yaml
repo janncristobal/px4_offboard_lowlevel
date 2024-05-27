@@ -20,3 +20,4 @@
       PWM_MAX: 1950
       input_scaling: 1000
       zero_position_armed: 100
+      num_of_servos: 0

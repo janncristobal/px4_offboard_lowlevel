@@ -1,13 +1,13 @@
 /**:
   ros__parameters:
     uav_parameters:
-      mass: 2.0                  # Kg
+      mass: 1.5 #2.0                  # Kg
       arm_length: 0.25             # m
       num_of_arms: 4
       inertia:                     # Kg.m^2
-        x: 0.08612
-        y: 0.08962
-        z: 0.16088
+        x: 0.09                #0.08612
+        y: 0.09                #0.08962
+        z: 0.16                #0.16088
       moment_constant: 0.016     # m
       thrust_constant: 8.54858e-06   # N.s^2/rad^2
       max_rotor_speed: 1000         # rad/s
@@ -20,4 +20,6 @@
       PWM_MAX: 1950
       input_scaling: 1000
       zero_position_armed: 10
-      num_of_servos: 0
+      num_of_servos: 8
+      airframe: 2
+      
